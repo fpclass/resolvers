@@ -1,11 +1,8 @@
 # the resolver we base this on
 resolver: lts-14.12
 
-# make sure that installed packages work for other users
-allow-different-user: true
-
 # packages we want that aren't in the snapshot
-extra-deps:
+packages:
 - hedgehog-1.0.3@sha256:dd9a25bf904fe444d5de471d0933261ef2c9a1110330460e037e0fef86fac89e,4622
 - git: https://github.com/mbg/tasty-hedgehog
   commit: ec346123d807867385231c7032e771ef3610a143
