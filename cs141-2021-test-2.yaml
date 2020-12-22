@@ -1,0 +1,7 @@
+# the resolver we base this on
+resolver: lts-16.26
+
+# packages we want that aren't in the snapshot
+packages:
+- git: https://github.com/mbg/tasty-hedgehog
+  commit: ec346123d807867385231c7032e771ef3610a143
